@@ -1,0 +1,8 @@
+| Color         | Hex Code  | Use                            |
+| ------------- | --------- | ------------------------------ |
+| 🖤 Dark Black | `#111111` | headings / dark sections       |
+| ⚪ Off White   | `#F7F6F2` | main background                |
+| 🟠 Orange     | `#FF5A00` | buttons / highlights / accents |
+| ⚪ White       | `#FFFFFF` | cards / text on dark           |
+| 🔘 Light Gray | `#E5E5E5` | borders / subtle backgrounds   |
+| 🌑 Dark Gray  | `#1C1C1C` | secondary dark elements        |
