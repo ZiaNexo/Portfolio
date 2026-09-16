@@ -2,12 +2,15 @@ body{
     background-color: #F7F6F2;
 }
 /* NAVBAR */
-.navbar{
+.nav-bg{
     background-color: #F7F6F2;
-    width: 100%;
-    height: auto;
     position: sticky;
     top: 0;
+    z-index: 999999999;
+}
+.navbar{
+    width: 100%;
+    height: auto;
 }
 .logo{
     font-weight: 800;
@@ -152,4 +155,194 @@ box-shadow: none;
     border-radius: 10px;
     background-color: #FF5A00;
     overflow: hidden;
+    z-index: 999;
+}
+/* Hero-3 */
+.hero-3-bg{
+    background-color: #111111;
+    padding: 50px 0px;
+}
+.hero-3-section-1{
+    color: #FF5A00;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.hero-3-section-2{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.hero-3-section-heading-1{
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-top: -20px;
+}
+.hero-3-section-heading-2{
+    color: #FF5A00;
+    font-weight: 800;
+     font-size: 50px;
+    letter-spacing: 3px;
+    margin-top: -20px;
+}
+.hero-3-section-skill{
+    width: 130px;
+    color: white;
+}
+.hero-3-section-percent{
+    color: white;}
+.hero-3-section-line-1,
+.hero-3-section-line-2,
+.hero-3-section-line-3,
+.hero-3-section-line-4,
+.hero-3-section-line-5,
+.hero-3-section-line-6 {
+    width: 300px;
+    display: flex;
+}
+.hero-3-section-html-line-1{
+    width: 238px;
+    background-color: white;
+    height: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.hero-3-section-html-line-2{
+    width: 12px;
+    background-color: #1c1c1c;
+    height: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.hero-3-section-css-line-1{
+    width: 225px;
+    background-color: white;
+    height: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.hero-3-section-css-line-2{
+    width: 25px;
+    background-color: #1c1c1c;
+    height: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.hero-3-section-java-line-1{
+    width: 25px;
+    background-color: white;
+    height: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.hero-3-section-java-line-2{
+    width: 225px;
+    background-color: #1c1c1c;
+    height: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.hero-3-section-bootstrap-line-1{
+    width: 200px;
+    background-color: white;
+    height: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.hero-3-section-bootstrap-line-2{
+    width: 50px;
+    background-color: #1c1c1c;
+    height: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.hero-3-section-graphic-line-1{
+    width: 238px;
+    background-color: white;
+    height: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.hero-3-section-graphic-line-2{
+    width: 12px;
+    background-color: #1c1c1c;
+    height: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.hero-3-section-ui-line-1{
+    width: 162px;
+    background-color: white;
+    height: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.hero-3-section-ui-line-2{
+    width: 88px;
+    background-color: #1c1c1c;
+    height: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.line{
+    opacity: 0.2;
+    width: 2px;
+    height: 350px;
+    background-color: #E5E5E5;
+    border-radius: 20px;
+}
+.box{
+    width:200px;
+    height: 200px;
+    background-color: #FF5A00;
+}
+/* Hero-4 */
+.hero-4-section-1{
+    color: #FF5A00;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.hero-4-section-2{
+    color: #111111;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.hero-4-section-heading-1{
+    color: #111111;
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-top: -20px;
+}
+.hero-4-section-heading-2{
+    color: #FF5A00;
+    font-weight: 800;
+     font-size: 50px;
+    letter-spacing: 3px;
+    margin-top: -20px;
+}
+.hero-4-section-paragraph{
+    font-weight: 400;
+    color: #1c1c1c;
+}
+.custom-card{
+    border-radius: 30px;
+    overflow: hidden;
+    border: 2px solid #FF5A00;
+}
+.custom-card-body{
+    background-color: #F7F6F2;
+}
+.hero-4-card-heading {
+    font-weight: 600 !important;
+    font-size: 30px;
+    cursor: pointer;
+    color: #FF5A00;
+    text-decoration: none;
+}
+.hero-4-card-para{
+    font-weight: 600 !important;
+    font-size: 20px; 
+    /* color: white;   */
 }
